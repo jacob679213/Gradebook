@@ -52,7 +52,7 @@ public class Teacher {
         
         while(on){
             //name and give assignment's worth
-            System.out.println("What is the assigbment called?");
+            System.out.println("What is the assignment called?");
             String name = kb.nextLine();
             System.out.println("How many points is "+name+" worth?");
             int score = kb.nextInt();
